@@ -3,10 +3,12 @@ yc_translate.py
 This script helps translating database field to specified language, and store data to another 
 field/database, using Yandex.Translator
 
-Yandex.Cloud authoruzation throug JWT/IAM tokens -- please, read instructions on how to 
-prepare all the data needed.
-Before use it, you have to create an Y.C Account create a folder in it, create a service_account
-get a key_id, private and public key. Your private key should be stored as private.key file.
+Yandex.Cloud authorization through JWT/IAM tokens -- please, read instructions on how to 
+prepare all the data needed: https://cloud.yandex.com/en-ru/docs/translate/quickstart
+
+Follow the instructions to get all the needed keys and store in in the file (see comments)
+
+Hope, it would be helpful!
 
 
 
