@@ -62,7 +62,7 @@ while True:
 		break
 
 	time = expiresAt - datetime.datetime.now().timestamp()
-	if time < 3000: # Check if token is being expire soon and need to be updated
+	if time < 3000: # Check if token is being expired soon and need to be updated
 		expire, token = gettoken() # Update token if so.
 
 	trans = translate(row[1], token)
